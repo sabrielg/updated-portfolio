@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  
+}
+
+main {
+  /* margin: 25px; */
+  margin: 0px 25px
+}
+
+/* a:hover {
+
+} */
