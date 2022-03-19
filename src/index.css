@@ -23,6 +23,10 @@ main {
   margin: 0px 25px
 }
 
+.card-body {
+	background-color: #654A4E;
+}
+
 /* a:hover {
 
 } */
