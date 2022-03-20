@@ -30,7 +30,7 @@ function Project() {
       <h2 id="Project">Project</h2>
       {Project.map((image, i) => (
         <div key={i} className="card mt-3 p-5 mx-3">
-            {/* <div card-body> */}
+            {/* <div className="card-body"> */}
           <h3>{image.title}</h3>
           <img
             src={require(`../../assets/elements/${image.photo}.jpg`)}

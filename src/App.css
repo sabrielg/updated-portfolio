@@ -1,8 +1,8 @@
 /* ~~~~~~~~~~~~ GLOBAL SETTINGS ~~~~~~~~~~~~ */
 
-*, *:before, *:after {
+/* *, *:before, *:after {
 	box-sizing: border-box;
-}
+} */
 
 body {
 	/* --def: #96B7C4; 	
@@ -12,16 +12,11 @@ body {
 	display: flex;
 	justify-content: center;
 	/* align-items: center; */
-	flex-direction: column;
+	/* flex-direction: column; */
 	height: 100vh;
 	width: 100%;
 	background-image: linear-gradient(-25deg, #616161 0%, #916A70 100%);
 }
-
-/* html {
-	font-size: 22px;
-	font-family: 'Playfair Display', serif;
-} */
 
 div {margin-bottom: 3rem;}
 div:last-child {margin-bottom: 0;}
@@ -89,5 +84,9 @@ div:last-child {margin-bottom: 0;}
 
 .card{
 background-color: #654A4E;
-max-width: 33vw;
 }
+
+/* .card-body {
+	max-width: 100vw;
+	background-color: #654A4E;
+} */

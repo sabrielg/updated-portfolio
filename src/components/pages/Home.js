@@ -3,7 +3,6 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <p>
         <h2>
         Good Design
         </h2>
@@ -13,8 +12,7 @@ export default function Home() {
         is made with intention.
         <br/>
         creates connection.
-
-      </p>
+        <br/>
       <div className="btn from-top">Learn More</div>
     </div>
   );
