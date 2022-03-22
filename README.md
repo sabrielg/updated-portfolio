@@ -1,4 +1,4 @@
-# <Updated Portfolio!>
+#<Updated Portfolio!
 ## Description
 I created a new portfolio to showcase my skills in JavaScript, React, and CSS and highlight the projects I've completed using a myriad of other technologies. It was fun to work after learning so much. I can see a huge difference from week two to week 20!
 ## Usage
