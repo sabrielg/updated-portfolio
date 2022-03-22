@@ -4,7 +4,7 @@ I created a new portfolio to showcase my skills in JavaScript, React, and CSS an
 ## Usage
 You can view my portfolio and download my CV [here!](https://sabrielg-portfolio.herokuapp.com/)
 ## Credits
-Classmate [David Tait](https://github.com/davidtait1996)
+Classmate [David Tait](https://github.com/davidtait1996) and 
 Classmate [Mikayla Howitz](https://github.com/mhowitz)
 
 ## License
