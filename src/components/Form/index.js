@@ -52,7 +52,7 @@ function Form() {
           type="text"
           placeholder="Message"
         />
-        <button class="submit-button" type="button">Submit</button>
+        <button className="submit-button" type="button">Submit</button>
       </form>
       {errorMessage && (
         <div>

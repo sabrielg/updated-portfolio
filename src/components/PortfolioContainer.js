@@ -9,10 +9,9 @@ import logo from "../assets/elements/nose.png";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
-
   const renderPage = () => {
     if (currentPage === "Home") {
-      return <Home />;
+      return <Home handlePageChange={handlePageChange}/>;
     }
     if (currentPage === "About") {
       return <About />;

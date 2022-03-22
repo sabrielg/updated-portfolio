@@ -1,8 +1,10 @@
 import React from 'react';
+import photo from '../../assets/elements/ballerina-removebg-preview.png'
 
-export default function Home() {
+export default function Home({ currentPage, handlePageChange }) {
   return (
     <div>
+      <br/>
         <h2>
         Good Design
         </h2>
@@ -12,8 +14,14 @@ export default function Home() {
         is made with intention.
         <br/>
         creates connection.
-        <br/>
-      <div className="btn from-top">Learn More</div>
+        <br/><br/>
+        <div className='ballerina-photo'>
+      {""}
+      <img src={photo} alt="ballerinas"/>{""}
+      </div>
+        <a href='#about'>
+      <div className="btn from-top home-button" onClick={() => handlePageChange('About')}>Learn More</div>
+      </a>
     </div>
   );
 }

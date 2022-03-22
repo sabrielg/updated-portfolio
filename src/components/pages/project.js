@@ -26,20 +26,19 @@ function Project() {
     },
   ];
   return (
-    <section className="flex-row d-flex">
-      <h2 id="Project">Project</h2>
+    <section className="flex-row d-flex mt-3">
       {Project.map((image, i) => (
-        <div key={i} className="card mt-3 p-5 mx-3">
-            {/* <div className="card-body"> */}
+        <div key={i} className="card mx-3" style={{height:"550px", objectFit:"cover"}}>
           <h3>{image.title}</h3>
           <img
             src={require(`../../assets/elements/${image.photo}.jpg`)}
             alt={image.title}
             key={image.photo}
+            height="350px"
+            width="410px"
           />
-          <a className="btn" href={image.link}>Check it</a>
-          <a className="btn" href={image.gitHub}>GitHub</a>
-          {/* </div> */}
+          <a className="btn from-top" href={image.link}>Check it</a>
+          <a className="btn from-top" href={image.gitHub}>GitHub</a>
         </div>
       ))}
     </section>

@@ -4,10 +4,8 @@ import Project from './Project';
 function Work() {
   return (
     <div>
-      <h1>Work Page</h1>
-      <p>
+      <h1>my work</h1>
         <Project/>
-      </p>
     </div>
   );
 }

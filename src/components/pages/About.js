@@ -1,5 +1,7 @@
 import React from 'react';
-// import photo from "../pages/components/assets/elements/copy_489323067.png"
+import photo from "../../assets/elements/copy_489323067.png"
+
+
 
 export default function About() {
   return (
@@ -10,12 +12,11 @@ export default function About() {
                 nonprofit work and project management, <br/>
                  I design and code thoughtfully; <br/>
                  keeping real people at the center of my work.<br/>
-                 <br/>
                  I believe good design is inclusive and accessible for all.
-                 {/* <span>
+                 <div className="bio-photo">
               {" "}
-              <img src={photo} alt="something here" /> Sabriel Gee{" "}
-            </span> */}
+              <img src={photo} alt="something here"/>{" "}
+            </div>
       </p>
     </div>
   );

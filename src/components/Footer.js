@@ -1,31 +1,25 @@
-import React from "react"
+import React from "react";
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+// import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brand-svg-icons";
 
 function Footer() {
-    return (
-        <footer>
-
-            Made with intention by Sabriel Gee
-            <br/>
-            <ul className="justify-content-center justify-content-space around">
-                <li>
-                    <a href="https://github.com/sabrielg">
-                        <FontAwesomeIcon icon={faGitHub} className="icon-is-large is-active"/>
-                        </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/sabriel-gee/">
-                        <FontAwesomeIcon icon={faLinkedIn} className="icon-is-large is-active"/>
-                        </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/sabrieltoothtiger/">
-                        <FontAwesomeIcon icon={faInstagram} className="icon-is-large is-active"/>
-                        </a>
-                </li>
-                </ul>
-            &copy; 2022 Sabriel Gee, llc
-        </footer>
-    )
+  return (
+    <footer>
+      Made with intention by Sabriel Gee
+      <br/>
+        {/* <a href="https://github.com/sabrielg">
+            <FontAwesomeIcon icon={faGithub}/>
+        </a>
+        <a href="https://www.linkedin.com/in/sabriel-gee/">
+        <FontAwesomeIcon icon={faLinkedin}/>
+        </a>
+        <a href="https://www.instagram.com/sabrieltoothtiger/">
+        <FontAwesomeIcon icon={faInstagram}/>
+        </a> */}
+        <br/>
+      &copy; 2022 Sabriel Gee, llc
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
