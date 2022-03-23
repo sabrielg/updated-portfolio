@@ -20,7 +20,7 @@ export default function Home({ currentPage, handlePageChange }) {
       <img src={photo} alt="ballerinas"/>{""}
       </div>
         <a href='#about'>
-      <div className="btn from-top home-button" onClick={() => handlePageChange('About')}>Learn More</div>
+      <div className="btn from-top home-button" onClick={() => handlePageChange('About')}>Let's do this</div>
       </a>
     </div>
   );
